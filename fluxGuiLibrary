@@ -2306,20 +2306,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			local Label = Instance.new("TextButton")
 			local LabelCorner = Instance.new("UICorner")
 			local Title = Instance.new("TextLabel")
-
-			Label.Name = "Label"
-			Label.Parent = Container
-			Label.BackgroundColor3 = Color3.fromRGB(64, 68, 75)
-			Label.ClipsDescendants = true
-			Label.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
-			Label.Size = UDim2.new(0, 457, 0, 43)
-			Label.AutoButtonColor = false
-			Label.Font = Enum.Font.SourceSans
-			Title.FontSize = 4
-			Label.Text = ""
-			Label.TextColor3 = Color3.fromRGB(0, 0, 0)
 			
-
 			LabelCorner.CornerRadius = UDim.new(0, 4)
 			LabelCorner.Name = "LabelCorner"
 			LabelCorner.Parent = Label
@@ -2329,7 +2316,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title.BackgroundTransparency = 1.000
 			Title.Position = UDim2.new(0.038480062, 0, 0, 0)
-			Title.Size = UDim2.new(0, 113, 0, 42)
+			Title.Size = UDim2.new(1,0,1,0)
 			Title.Font = Enum.Font.Gotham
 			Title.Text = text
 			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
