@@ -2333,7 +2333,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.Font = Enum.Font.Gotham
 			Title.Text = text
 			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title.FontSize = 5
+			Title.TextScaled = true
 			Title.TextTransparency = 0.300
 			Title.TextXAlignment = Enum.TextXAlignment.Left
 			
