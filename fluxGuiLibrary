@@ -2317,7 +2317,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Label.Font = Enum.Font.SourceSans
 			Label.Text = ""
 			Label.TextColor3 = Color3.fromRGB(0, 0, 0)
-			Label.TextSize = 14.000
+			Label.TextScaled = true
 
 			LabelCorner.CornerRadius = UDim.new(0, 4)
 			LabelCorner.Name = "LabelCorner"
