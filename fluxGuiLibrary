@@ -2315,7 +2315,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Label.Size = UDim2.new(0, 457, 0, 43)
 			Label.AutoButtonColor = false
 			Label.Font = Enum.Font.SourceSans
-			Title.FontSize = 8
+			Title.FontSize = 4
 			Label.Text = ""
 			Label.TextColor3 = Color3.fromRGB(0, 0, 0)
 			
@@ -2333,7 +2333,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.Font = Enum.Font.Gotham
 			Title.Text = text
 			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title.FontSize = 8
+			Title.FontSize = 5
 			Title.TextTransparency = 0.300
 			Title.TextXAlignment = Enum.TextXAlignment.Left
 			
